@@ -7,7 +7,7 @@ int square_digits(int num) {
   while (num >= 10) {
     tempNum = num % 10;
     num /= 10;
-    temp = std::to_string(tempNum * tempNum);
+    temp = std::to_string(tempNum * tempNum); 
     reverse(temp.begin(), temp.end());
     stringResult += temp;
   }
