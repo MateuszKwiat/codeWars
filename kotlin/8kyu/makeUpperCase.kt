@@ -1,0 +1,1 @@
+fun makeUpperCase(str: String): String = str.uppercase()
